@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>TextToSpeech</title>
+    <title>TextToVoice</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="wrapper">
+        <header>TextToVoice</header>
+        <form action="#">
+            <div class="row">
+                <label>Ingrese Texto</label>
+                <textarea></textarea>
+            </div>
+            <div class="row">
+                <label>Seleccione Voz</label>
+                <div class="outer">
+                    <select>
+                        <option value="">Google ES Español (es-ES)</option>
+                        <option value="">Google US English (en-US)</option>
+                    </select>
+                </div>
+            </div>
+            <button>Convertir a Voz</button>
+        </form>
+    </div>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
